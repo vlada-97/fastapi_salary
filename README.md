@@ -92,3 +92,6 @@ curl -X GET -H "Authorization: Bearer <token>" http://localhost:8000/salary
 ## Получение результата зарплаты
 
 ![](https://github.com/vlada-97/fastapi_salary/blob/main/gif/get_salary.gif)
+
+## Завершение работы
+Чтобы остановить работу приложения, нажмите комбинацию клавиш Ctrl+C в терминале, где запущено приложение.
