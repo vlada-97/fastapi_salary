@@ -1,0 +1,34 @@
+openapi: 3.0.2
+info:
+  title: Salary
+  version: 0.1.0
+paths:
+  "/token":
+    post:
+      summary: Login For Access Token
+      operationId: login_for_access_token_token_post
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema: {}
+      security:
+      - HTTPBasic: []
+  "/salary":
+    get:
+      summary: Get Salary
+      operationId: get_salary_salary_get
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema: {}
+      security:
+      - HTTPBasic: []
+components:
+  securitySchemes:
+    HTTPBasic:
+      type: http
+      scheme: basic
